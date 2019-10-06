@@ -1,4 +1,4 @@
-<h1 align="center">Flutter Travel 🤳</h1>
+<h1 align="center">Flutter Travel </h1>
 <p align="center">A travel guide app built using flutter</p>
 
 <p align="center">
