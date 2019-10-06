@@ -1,6 +1,11 @@
-# flutter_night_event
+<h1 align="center">Flutter NightLife 💃</h1>
+<p align="center">A night events app built using flutter</p>
 
-A new Flutter project.
+<p align="center">
+    <img src="docs/1.png" height="500em"/>
+    <img src="docs/2.png" height="500em"/>
+    <img src="docs/3.png" height="500em"/>
+</p>
 
 ## Getting Started
 
