@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_onboarding/utilities/styles.dart';
+ 
+class OnbardingPage extends StatefulWidget {
+  OnbardingPage({Key key}) : super(key: key);
 
-class OnboardingScreen extends StatefulWidget {
-  @override
-  _OnboardingScreenState createState() => _OnboardingScreenState();
+  _OnbardingPageState createState() => _OnbardingPageState();
 }
 
-class _OnboardingScreenState extends State<OnboardingScreen> {
+class _OnbardingPageState extends State<OnbardingPage> {
   final int _numPages = 3;
   final PageController _pageController = PageController(initialPage: 0);
   int _currentPage = 0;
@@ -36,6 +37,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomPadding: false,
       body: AnnotatedRegion<SystemUiOverlayStyle>(
         value: SystemUiOverlayStyle.light,
         child: Container(
@@ -53,7 +55,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
             ),
           ),
           child: Padding(
-            padding: EdgeInsets.symmetric(vertical: 30.0),
+            padding: EdgeInsets.symmetric(vertical: 40.0),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: <Widget>[
@@ -71,7 +73,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                   ),
                 ),
                 Container(
-                  height: 600.0,
+                  height: 500.0,
                   child: PageView(
                     physics: ClampingScrollPhysics(),
                     controller: _pageController,
@@ -89,7 +91,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                             Center(
                               child: Image(
                                 image: AssetImage(
-                                  'assets/images/onboarding0.png',
+                                  'assets/images/undraw_taking_selfie.png',
                                 ),
                                 height: 200.0,
                                 width: 200.0,
@@ -98,12 +100,12 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                             SizedBox(height: 30.0),
                             Text(
                               'Connect people\naround the world',
-                              style: kTitleStyle,
+                              style: titleStyle,
                             ),
                             SizedBox(height: 15.0),
                             Text(
                               'Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor incididunt ut labore et.',
-                              style: kSubtitleStyle,
+                              style: subtitleStyle,
                             ),
                           ],
                         ),
@@ -116,7 +118,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                             Center(
                               child: Image(
                                 image: AssetImage(
-                                  'assets/images/onboarding1.png',
+                                  'assets/images/undraw_voice_interface.png',
                                 ),
                                 height: 200.0,
                                 width: 200.0,
@@ -125,12 +127,12 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                             SizedBox(height: 30.0),
                             Text(
                               'Live your life smarter\nwith us!',
-                              style: kTitleStyle,
+                              style: titleStyle,
                             ),
                             SizedBox(height: 15.0),
                             Text(
                               'Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor incididunt ut labore et.',
-                              style: kSubtitleStyle,
+                              style: subtitleStyle,
                             ),
                           ],
                         ),
@@ -143,7 +145,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                             Center(
                               child: Image(
                                 image: AssetImage(
-                                  'assets/images/onboarding2.png',
+                                  'assets/images/undraw_modern_life.png',
                                 ),
                                 height: 200.0,
                                 width: 200.0,
@@ -152,12 +154,12 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                             SizedBox(height: 30.0),
                             Text(
                               'Get a new experience\nof imagination',
-                              style: kTitleStyle,
+                              style: titleStyle,
                             ),
                             SizedBox(height: 15.0),
                             Text(
                               'Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor incididunt ut labore et.',
-                              style: kSubtitleStyle,
+                              style: subtitleStyle,
                             ),
                           ],
                         ),
@@ -202,35 +204,35 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                           ),
                         ),
                       )
-                    : Text(''),
+                  : Text(''),
               ],
             ),
           ),
         ),
       ),
       bottomSheet: _currentPage == _numPages - 1
-          ? Container(
-              height: 100.0,
-              width: double.infinity,
-              color: Colors.white,
-              child: GestureDetector(
-                onTap: () => print('Get started'),
-                child: Center(
-                  child: Padding(
-                    padding: EdgeInsets.only(bottom: 10.0),
-                    child: Text(
-                      'Get started',
-                      style: TextStyle(
-                        color: Color(0xFF5B16D0),
-                        fontSize: 20.0,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
+        ? Container(
+          height: 100.0,
+          width: double.infinity,
+          color: Colors.white,
+          child: GestureDetector(
+            onTap: () => print('Get started'),
+            child: Center(
+              child: Padding(
+                padding: EdgeInsets.only(bottom: 30.0),
+                child: Text(
+                  'Get started',
+                  style: TextStyle(
+                    color: Color(0xFF5B16D0),
+                    fontSize: 20.0,
+                    fontWeight: FontWeight.bold,
                   ),
                 ),
               ),
-            )
-          : Text(''),
+            ),
+          ),
+        )
+      : Text(''),
     );
   }
 }
