@@ -1,6 +1,11 @@
-# flutter_pet_adoption
+<h1 align="center">Flutter Pets</h1>
+<p align="center">A pet adoption app built using flutter</p>
 
-A new Flutter project.
+<p align="center">
+    <img src="docs/1.png" height="500em"/>
+    <img src="docs/2.png" height="500em"/>
+    <img src="docs/3.png" height="500em"/>
+</p>
 
 ## Getting Started
 
