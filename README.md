@@ -24,8 +24,8 @@ This repository contains collection of UI designs made using Flutter.
     An example of onboarding screen on Flutter.
 
 5. [Pet Adoption](https://github.com/vcjpierre/flutter-ui-collection/tree/master/flutter_pet_adoption)<br>
-    Pet adoption ap built using Flutter.
+    Pet adoption app built using Flutter.
 
 6. [Travel Guide](https://github.com/vcjpierre/flutter-ui-collection/tree/master/flutter_travel_guide)<br>
-    A travel app design made with flutter.
+    A travel guide app design made with flutter.
 
