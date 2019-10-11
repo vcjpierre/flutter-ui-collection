@@ -11,21 +11,21 @@ This repository contains collection of UI designs made using Flutter.
 
 ## All apps
 
-1. [Food Delivery](https://github.com)<br>
+1. [Food Delivery](https://github.com/vcjpierre/flutter-ui-collection/tree/master/flutter_food_delivery)<br>
     A food ordering and delivery app using Flutter.
 
-2. [Login](https://github.com)<br>
+2. [Login](https://github.com/vcjpierre/flutter-ui-collection/)<br>
     Upcoming.
 
-3. [Night Events](https://github.com)<br>
+3. [Night Events](https://github.com/vcjpierre/flutter-ui-collection/tree/master/flutter_night_event)<br>
     Night events app built using Flutter.
 
-4. [Onboarding](https://github.com)<br>
+4. [Onboarding](https://github.com/vcjpierre/flutter-ui-collection/tree/master/flutter_onboarding)<br>
     An example of onboarding screen on Flutter.
 
-5. [Pet Adoption](https://github.com)<br>
-    Pet adoption ap built using Flutter.
+5. [Pet Adoption](https://github.com/vcjpierre/flutter-ui-collection/tree/master/flutter_pet_adoption)<br>
+    Pet adoption app built using Flutter.
 
-6. [Travel Guide](https://github.com)<br>
-    A travel app design made with flutter.
+6. [Travel Guide](https://github.com/vcjpierre/flutter-ui-collection/tree/master/flutter_travel_guide)<br>
+    A travel guide app design made with flutter.
 
