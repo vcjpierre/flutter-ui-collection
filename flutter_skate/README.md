@@ -1,6 +1,11 @@
-# Flutter Skateboards App
+<h1 align="center">Flutter Skate </h1>
+<p align="center">A skateboards app built using flutter</p>
 
-A new Flutter project.
+<p align="center">
+    <img src="docs/1.png" height="500em"/>
+    <img src="docs/2.png" height="500em"/>
+    <img src="docs/3.png" height="500em"/>
+</p>
 
 ## Getting Started
 
@@ -14,3 +19,8 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## Credits
+https://youtu.be/WpiqL0yo-BY
+
+https://unsplash.com
