@@ -75,7 +75,7 @@ class PopularData extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
                 Text(
-                  "Simply dummy text of", 
+                  "Hello World.", 
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 12
