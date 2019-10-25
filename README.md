@@ -27,5 +27,8 @@ This repository contains collection of UI designs made using Flutter.
     Pet adoption app built using Flutter.
 
 6. [Travel Guide](https://github.com/vcjpierre/flutter-ui-collection/tree/master/flutter_travel_guide)<br>
-    A travel guide app design made with flutter.
+    A travel guide app design made with Flutter.
+
+7. [Skate](https://github.com/vcjpierre/flutter-ui-collection/tree/master/flutter_skate)<br>
+    Skateboards app created using Flutter.
 
