@@ -1,5 +1,5 @@
 <h1 align="center">Flutter Skate </h1>
-<p align="center">A skateboards app built using flutter</p>
+<p align="center">Skateboards app built using flutter</p>
 
 <p align="center">
     <img src="docs/1.png" height="500em"/>
