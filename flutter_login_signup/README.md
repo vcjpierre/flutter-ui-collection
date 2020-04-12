@@ -1,6 +1,11 @@
-# flutter_login_signup
+<h1 align="center">Flutter - Login and Sign Up </h1>
+<p align="center">Login and signup screens made using Flutter</p>
 
-A new Flutter project.
+<p align="center">
+    <img src="docs/1.png" height="500em"/>
+    <img src="docs/2.png" height="500em"/>
+    <img src="docs/3.png" height="500em"/>
+</p>
 
 ## Getting Started
 
