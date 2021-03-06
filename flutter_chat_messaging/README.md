@@ -1,6 +1,5 @@
-# Flutter Chat Messaging
-
-A chat messaging app built using Flutter.
+<h1 align="center">Flutter Chat Messaging</h1>
+<p align="center">A chat messaging app built using Flutter</p>
 
 <p align="center">
     <img src="docs/1.png" height="500em"/>
