@@ -11,24 +11,27 @@ This repository contains collection of UI designs made using Flutter.
 
 ## All apps
 
-1. [Food Delivery](https://github.com/vcjpierre/flutter-ui-collection/tree/master/flutter_food_delivery)<br>
+1. [Chat Messaging](https://github.com/vcjpierre/flutter-ui-collection/tree/master/flutter_chat_messaging)<br>
+    A chat messaging app with dark theme support. 
+
+2. [Food Delivery](https://github.com/vcjpierre/flutter-ui-collection/tree/master/flutter_food_delivery)<br>
     A food ordering and delivery app using Flutter.
 
-2. [Login](https://github.com/vcjpierre/flutter-ui-collection/tree/master/flutter_login_signup)<br>
+3. [Login](https://github.com/vcjpierre/flutter-ui-collection/tree/master/flutter_login_signup)<br>
     Login and Sign Up.
 
-3. [Night Events](https://github.com/vcjpierre/flutter-ui-collection/tree/master/flutter_night_event)<br>
+4. [Night Events](https://github.com/vcjpierre/flutter-ui-collection/tree/master/flutter_night_event)<br>
     Night events app built using Flutter.
 
-4. [Onboarding](https://github.com/vcjpierre/flutter-ui-collection/tree/master/flutter_onboarding)<br>
+5. [Travel Guide](https://github.com/vcjpierre/flutter-ui-collection/tree/master/flutter_travel_guide)<br>
+    A travel guide app design made with Flutter.
+    
+6. [Onboarding](https://github.com/vcjpierre/flutter-ui-collection/tree/master/flutter_onboarding)<br>
     An example of onboarding screen on Flutter.
 
-5. [Pet Adoption](https://github.com/vcjpierre/flutter-ui-collection/tree/master/flutter_pet_adoption)<br>
+7. [Pet Adoption](https://github.com/vcjpierre/flutter-ui-collection/tree/master/flutter_pet_adoption)<br>
     Pet adoption app built using Flutter.
 
-6. [Travel Guide](https://github.com/vcjpierre/flutter-ui-collection/tree/master/flutter_travel_guide)<br>
-    A travel guide app design made with Flutter.
-
-7. [Skate](https://github.com/vcjpierre/flutter-ui-collection/tree/master/flutter_skate)<br>
+8. [Skate](https://github.com/vcjpierre/flutter-ui-collection/tree/master/flutter_skate)<br>
     Skateboards app created using Flutter.
 
